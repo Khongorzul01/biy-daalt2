@@ -1,0 +1,437 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  margin: 20px 0 0 0;
+}
+.cp-btn{
+  background-color: rgba(255, 196, 0, 0.521);
+  color: white;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.navbar-collapse{
+  flex-grow: 0;
+}
+.navbar-items{
+  margin-right: 0;
+}
+.nav-link {
+  font-weight: 500;
+  padding:10px 0;
+}
+.nav-item{
+  margin:5px;
+}
+.header {
+  background-color: #dceaf5;
+  padding: 30px 0;
+}
+.card-img-top{
+  border-radius: 20px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 35px;
+  font-weight: 550;
+}
+h4 {
+  margin-top: 10px;
+}
+p {
+  color: #5b5b5b;
+  margin: 20px 0;
+}
+.atag a{
+  text-decoration: none;
+  color: orange;
+}
+.atag a:after{
+  content: "\2192";
+  margin: 5px;
+}
+section {
+  margin-top: 20px;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.heading-image{
+  margin-bottom: -30px;
+}
+.heading-image img{
+  width: 100%;
+}
+.logoheader{
+  margin: 10px;
+  width: 100%;
+}
+.logoheader:first-child{
+  margin-left: 0;
+}
+.header-content-btn a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+.first-btn {
+  background-color: orange;
+  color: white;
+}
+.last-btn {
+  margin-left: 10px;
+  color: #5b5b5b;
+}
+.home-services {
+  width: 60%;
+}
+.home-service-card {
+  margin: 40px 0;
+}
+.company-support {
+  padding: 20px 0;
+  border-radius: 20px;
+  background-color: white;
+  margin:20px 0;
+}
+.padd{
+  padding:20px;
+}
+
+.experience {
+  margin: 0 10px;
+  padding: 10px;
+}
+.plus {
+  color: orange;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-space{
+  margin-top: 100px;
+}
+.about-us-text{
+  padding: 25% 25px 25px 0;
+}
+.card-hover{
+  display: none;
+}
+.about-card-hover:hover{
+  background-color: orange;
+  z-index: 0;
+}
+.about-card-hover img:hover{
+  background-color: rgb(170, 170, 170);
+  z-index: 1;
+}
+.ab-img{
+  position: relative;
+}
+.ab-img img{
+  width: 100%;
+  border-radius: 20px;
+}
+.ab-img::after {
+  content: '';
+  width:25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: rgb(255, 145, 0);
+  z-index: 1;
+  mix-blend-mode: multiply;
+  border-radius:20px 0 0 20px;
+}
+.career-text{
+  padding:0 20px 0 0;
+}
+.experience-about {
+  margin: 40px 0;
+  padding: 20px 0;
+}
+.team {
+  padding: 20px;
+  border-radius: 20px;
+}
+.team-start::after{
+  content: url(/images/Ribbon.png);
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: -56px -36px 0 0;
+}
+.team-start {
+  margin: 20px 0;
+  padding: 20px 0 30px;
+  position: relative;
+}
+.team-start a {
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 7px 15px;
+  margin: 0 5px;
+  color: #5b5b5b;
+}
+.team-start a:first-child {
+  background-color: white;
+  color: orange;
+  border: 1px solid white;
+}
+.latest {
+  border-radius: 20px;
+  margin:10px;
+  background-color: white;
+}
+.latest img{
+  border-radius: 20px 20px 0 0;
+}
+.latest:first-child{
+  margin-left: 0;
+}
+.latest:last-child{
+  margin-right: 0;
+}
+
+.job-vacation {
+  background-color: orange;
+  margin:100px 0;
+}
+.vacation-btn a{
+  width:150px;
+  background-color: white;
+  color: orange;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.job-vacation-s{
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/experience-image.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+
+}
+.job-vacation-e {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 20%;
+}
+.neo-about {
+  padding: 40px 0;
+}
+.video-img{
+  position: relative;
+}
+.video-img img{
+  width: 100%;
+}
+.video-img::after{
+  content: url(/images/play-icon.svg);
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top:15px;
+  left: 5%;
+  top:82%;
+}
+.profile-about {
+  margin: 40px 0;
+}
+.profile-name {
+  margin: 25px 0 0 30px;
+}
+.footer {
+  background-color: #063255;
+  color: white;
+}
+.footer p {
+  color: white;
+  font-weight: 500;
+}
+.footer ul {
+  padding-left: 0;
+}
+.footer ul li {
+  list-style-type: none;
+}
+.footer .terms {
+  margin-left: 20px;
+}
+.footer-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+}
+.footer-btn a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  color: orange;
+  width: 200px;
+  margin-left: 0;
+}
+.text-here {
+  background-color: white;
+  color: rgb(148, 148, 148);
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 6px 20px;
+}
+.tel {
+  text-decoration: none;
+  color: white;
+}
+.home-service-body1 {
+  padding: 5%;
+}
+.about-image img{
+  border-radius: 20px;  
+}
+.about-team-group{
+  margin:150px 0;
+}
+.about-team-start{
+  width: 70%;
+  margin-bottom: 50px;
+}
+.about-team-image{
+  border-radius: 20px;
+}
+.about-team-img{
+  position: relative;
+}
+.about-team-img::after{
+  content: '';
+  width:40%;
+  height: 40%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 -30px -30px 0;
+  background-color: rgb(255, 123, 0);
+  z-index: 1;
+  mix-blend-mode: multiply;
+  border-radius:20px;
+}
+.about-card{
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+    margin:10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.about-card:first-child{
+  margin-left: 0;
+}
+.about-card:last-child{
+  margin-right: 0;
+}
+.workspace{
+  background-color:#dceaf5;
+  padding:30px 20px;
+  border-radius: 20px;
+  margin:20px 0;
+}
+.workspace p{
+  margin:5px;
+}
+.workspace p:first-child{
+  margin-left: 0;
+}
+.workspace a{
+  text-decoration: none;
+  color: orange;
+}
+.services_img{
+  border-radius: 20px;
+  margin: 0 40px;
+  max-width: 500px;
+  height: 100%;
+}
+.services_img:first-child{
+  margin-left: 0;
+}
+.services_img:last-child{
+  margin-right: 0;
+}
+.services-text{
+  align-items: center;
+  padding-top: 80px;
+}
+.about-team-group img{
+  border-radius: 20px;
+}
+.blog-color{
+  background-color: #dceaf5;
+  margin: 0 0 30px;
+}
+.blog-header-img img{
+  border-radius: 20px;
+  margin: 80px 0;
+  width: 100%;
+}
+.blog-header-content img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.blog-header-content{
+  text-align: center;
+  align-items: center;
+}
+.blog-title{
+  font-size: 70px;
+}
+.contact-content{
+  margin: 40px 0;
+}
+.contct{
+  padding: 0 20px;
+  margin:0 30px;
+}
+.to-fill{
+  width: 90%;
+  border:none;
+  border-radius: 30px;
+  padding:15px 30px;
+  background-color: #dceaf5;
+  color: #5b5b5b;
+}
+.fill-in .area{
+  padding-bottom: 50px;
+  margin-bottom: 15px;
+}
+.empty{
+  background-color: #dbdee0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.contacts{
+  margin-bottom: 50px;
+}
