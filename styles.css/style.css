@@ -1,33 +1,30 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.navbar {
-  margin: 20px 0 0 0;
-}
-.cp-btn{
+.cp-btn {
   background-color: rgba(255, 196, 0, 0.521);
   color: white;
   border-radius: 20px;
   padding: 0 10px;
 }
-.navbar-collapse{
+.navbar-collapse {
   flex-grow: 0;
 }
-.navbar-items{
+.navbar-items {
   margin-right: 0;
 }
 .nav-link {
   font-weight: 500;
-  padding:10px 0;
+  padding: 10px 0;
 }
-.nav-item{
-  margin:5px;
+.nav-item {
+  margin: 5px;
 }
 .header {
   background-color: #dceaf5;
   padding: 30px 0;
 }
-.card-img-top{
+.card-img-top {
   border-radius: 20px;
 }
 h1 {
@@ -50,11 +47,11 @@ p {
   color: #5b5b5b;
   margin: 20px 0;
 }
-.atag a{
+.atag a {
   text-decoration: none;
   color: orange;
 }
-.atag a:after{
+.atag a:after {
   content: "\2192";
   margin: 5px;
 }
@@ -64,17 +61,17 @@ section {
 .navbar-brand {
   font-weight: 700;
 }
-.heading-image{
+.heading-image {
   margin-bottom: -30px;
 }
-.heading-image img{
+.heading-image img {
   width: 100%;
 }
-.logoheader{
+.logoheader {
   margin: 10px;
   width: 100%;
 }
-.logoheader:first-child{
+.logoheader:first-child {
   margin-left: 0;
 }
 .header-content-btn a {
@@ -101,10 +98,10 @@ section {
   padding: 20px 0;
   border-radius: 20px;
   background-color: white;
-  margin:20px 0;
+  margin: 20px 0;
 }
-.padd{
-  padding:20px;
+.padd {
+  padding: 20px;
 }
 
 .experience {
@@ -116,43 +113,43 @@ section {
   font-size: 30px;
   font-weight: 600;
 }
-.about-space{
+.about-space {
   margin-top: 100px;
 }
-.about-us-text{
+.about-us-text {
   padding: 25% 25px 25px 0;
 }
-.card-hover{
+.card-hover {
   display: none;
 }
-.about-card-hover:hover{
+.about-card-hover:hover {
   background-color: orange;
   z-index: 0;
 }
-.about-card-hover img:hover{
+.about-card-hover img:hover {
   background-color: rgb(170, 170, 170);
   z-index: 1;
 }
-.ab-img{
+.ab-img {
   position: relative;
 }
-.ab-img img{
+.ab-img img {
   width: 100%;
   border-radius: 20px;
 }
 .ab-img::after {
-  content: '';
-  width:25%;
+  content: "";
+  width: 25%;
   height: 100%;
   position: absolute;
   left: 0;
   background-color: rgb(255, 145, 0);
   z-index: 1;
   mix-blend-mode: multiply;
-  border-radius:20px 0 0 20px;
+  border-radius: 20px 0 0 20px;
 }
-.career-text{
-  padding:0 20px 0 0;
+.career-text {
+  padding: 0 20px 0 0;
 }
 .experience-about {
   margin: 40px 0;
@@ -162,7 +159,7 @@ section {
   padding: 20px;
   border-radius: 20px;
 }
-.team-start::after{
+.team-start::after {
   content: url(/images/Ribbon.png);
   z-index: 1;
   position: absolute;
@@ -190,39 +187,39 @@ section {
 }
 .latest {
   border-radius: 20px;
-  margin:10px;
+  margin: 10px;
   background-color: white;
 }
-.latest img{
+.latest img {
   border-radius: 20px 20px 0 0;
 }
-.latest:first-child{
+.latest:first-child {
   margin-left: 0;
 }
-.latest:last-child{
+.latest:last-child {
   margin-right: 0;
 }
 
 .job-vacation {
   background-color: orange;
-  margin:100px 0;
+  margin: 100px 0;
 }
-.vacation-btn a{
-  width:150px;
+.vacation-btn a {
+  width: 150px;
   background-color: white;
   color: orange;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 20px;
 }
-.job-vacation-s{
+.job-vacation-s {
   height: 100%;
   width: 100%;
   background-image: url(/images/experience-image.png);
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
-
+  margin-left: -1rem;
 }
 .job-vacation-e {
   color: white;
@@ -233,13 +230,13 @@ section {
 .neo-about {
   padding: 40px 0;
 }
-.video-img{
+.video-img {
   position: relative;
 }
-.video-img img{
+.video-img img {
   width: 100%;
 }
-.video-img::after{
+.video-img::after {
   content: url(/images/play-icon.svg);
   z-index: 1;
   position: absolute;
@@ -250,9 +247,9 @@ section {
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-top:15px;
+  padding-top: 15px;
   left: 5%;
-  top:82%;
+  top: 82%;
 }
 .profile-about {
   margin: 40px 0;
@@ -286,7 +283,7 @@ section {
   width: 150px;
   text-align: center;
 }
-.footer-btn a{
+.footer-btn a {
   text-decoration: none;
   background-color: white;
   border-radius: 20px;
@@ -308,25 +305,25 @@ section {
 .home-service-body1 {
   padding: 5%;
 }
-.about-image img{
-  border-radius: 20px;  
+.about-image img {
+  border-radius: 20px;
 }
-.about-team-group{
-  margin:150px 0;
+.about-team-group {
+  margin: 150px 0;
 }
-.about-team-start{
+.about-team-start {
   width: 70%;
   margin-bottom: 50px;
 }
-.about-team-image{
+.about-team-image {
   border-radius: 20px;
 }
-.about-team-img{
+.about-team-img {
   position: relative;
 }
-.about-team-img::after{
-  content: '';
-  width:40%;
+.about-team-img::after {
+  content: "";
+  width: 40%;
   height: 40%;
   position: absolute;
   right: 0;
@@ -335,103 +332,103 @@ section {
   background-color: rgb(255, 123, 0);
   z-index: 1;
   mix-blend-mode: multiply;
-  border-radius:20px;
+  border-radius: 20px;
 }
-.about-card{
-    width: 100%;
-    height: 28rem;
-    object-fit: cover;
-    margin:10px;
-    border-radius: 20px;
-    overflow: hidden;
+.about-card {
+  width: 100%;
+  height: 28rem;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.about-card:first-child{
+.about-card:first-child {
   margin-left: 0;
 }
-.about-card:last-child{
+.about-card:last-child {
   margin-right: 0;
 }
-.workspace{
-  background-color:#dceaf5;
-  padding:30px 20px;
+.workspace {
+  background-color: #dceaf5;
+  padding: 30px 20px;
   border-radius: 20px;
-  margin:20px 0;
+  margin: 20px 0;
 }
-.workspace p{
-  margin:5px;
+.workspace p {
+  margin: 5px;
 }
-.workspace p:first-child{
+.workspace p:first-child {
   margin-left: 0;
 }
-.workspace a{
+.workspace a {
   text-decoration: none;
   color: orange;
 }
-.services_img{
+.services_img {
   border-radius: 20px;
   margin: 0 40px;
   max-width: 500px;
   height: 100%;
 }
-.services_img:first-child{
+.services_img:first-child {
   margin-left: 0;
 }
-.services_img:last-child{
+.services_img:last-child {
   margin-right: 0;
 }
-.services-text{
+.services-text {
   align-items: center;
   padding-top: 80px;
 }
-.about-team-group img{
+.about-team-group img {
   border-radius: 20px;
 }
-.blog-color{
+.blog-color {
   background-color: #dceaf5;
   margin: 0 0 30px;
 }
-.blog-header-img img{
+.blog-header-img img {
   border-radius: 20px;
   margin: 80px 0;
   width: 100%;
 }
-.blog-header-content img{
+.blog-header-content img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
 }
-.blog-header-content{
+.blog-header-content {
   text-align: center;
   align-items: center;
 }
-.blog-title{
+.blog-title {
   font-size: 70px;
 }
-.contact-content{
+.contact-content {
   margin: 40px 0;
 }
-.contct{
+.contct {
   padding: 0 20px;
-  margin:0 30px;
+  margin: 0 30px;
 }
-.to-fill{
+.to-fill {
   width: 90%;
-  border:none;
+  border: none;
   border-radius: 30px;
-  padding:15px 30px;
+  padding: 15px 30px;
   background-color: #dceaf5;
   color: #5b5b5b;
 }
-.fill-in .area{
+.fill-in .area {
   padding-bottom: 50px;
   margin-bottom: 15px;
 }
-.empty{
+.empty {
   background-color: #dbdee0;
   border-radius: 20px;
   width: 100%;
   height: 100%;
 }
-.contacts{
+.contacts {
   margin-bottom: 50px;
 }
