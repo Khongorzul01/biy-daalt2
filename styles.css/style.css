@@ -187,17 +187,17 @@ section {
 }
 .latest {
   border-radius: 20px;
-  margin: 10px;
+  /* margin: 10px; */
   background-color: white;
 }
 .latest img {
   border-radius: 20px 20px 0 0;
 }
 .latest:first-child {
-  margin-left: 0;
+  /* margin-left: 0; */
 }
 .latest:last-child {
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 
 .job-vacation {
@@ -236,20 +236,22 @@ section {
 .video-img img {
   width: 100%;
 }
-.video-img::after {
-  content: url(/images/play-icon.svg);
-  z-index: 1;
+.vdo-icon {
+  max-width: 50px;
   position: absolute;
   background-color: white;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   padding-top: 15px;
   left: 5%;
   top: 82%;
+}
+.vdo-icon img {
+  width: 40%;
+  position: absolute;
+  left: 17px;
+  bottom: 13px;
 }
 .profile-about {
   margin: 40px 0;
